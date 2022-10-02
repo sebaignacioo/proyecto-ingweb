@@ -1,0 +1,12 @@
+[submodule "MaplerWeb"]
+	path = MaplerWeb
+	url = git@github.com:MaplerCL/MaplerWeb.git
+[submodule "MaplerWebReclutamiento"]
+	path = MaplerWebReclutamiento
+	url = git@github.com:MaplerCL/MaplerWebReclutamiento.git
+[submodule "MaplerWebCore"]
+	path = MaplerWeb/MaplerWebCore
+	url = git@github.com:MaplerCL/MaplerWebCore.git
+[submodule "MaplerWebCoreReclutamiento"]
+	path = MaplerWebReclutamiento/MaplerWebCore
+	url = git@github.com:MaplerCL/MaplerWebCore.git
