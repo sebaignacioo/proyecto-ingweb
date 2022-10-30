@@ -13,19 +13,22 @@ Este repositorio cuenta con 3 submódulos de git:
 
 -   [Mapler Web](https://github.com/MaplerCL/MaplerWeb): Repositorio con el sitio principal del proyecto.
 -   [Mapler Web Reclutamiento](https://github.com/MaplerCL/MaplerWebReclutamiento): Repositorio con el sitio dedicado al reclutamiento (landing page). Contiene los formularios validados (contacto e inscripción).
+-   [Mapler API](https://github.com/MaplerCL/MaplerAPI): Repositorio con el desarrollo de la API del proyecto. Aplicación de <code>express</code> con conexión a base de datos <code>mongodb</code>, alojada bajo la modalidad <i>sin servidor</i>, utilizando la librería <code>serverless</code> y <code>aws lambda</code>, con <code>aws api gateway</code> para gestionar las rutas y peticiones.
+
+Además, dentro de los repositorios de sitios web, se encuentra el siguiente submódulo:
+
 -   [Mapler Web Core](https://github.com/MaplerCL/MaplerWebCore): Repositorio con componentes y liberías de utilidad, usado en el desarrollo de las páginas anteriores. Este repositorio es un submódulo de los repositorios principales.
 
 ## Desarrollo
 
-|                              |                                                                                               |
-| ---------------------------- | --------------------------------------------------------------------------------------------- |
-| **IDEs**                     | [![webstorm-badge]][webstorm-web] [![vscode-badge]][vscode-web]                               |
-| **Lenguajes y entornos**     | [![ts-badge]][ts-web]                                                                         |
-| **Estilos**                  | [![tailwind-badge]][tailwind-web]                                                             |
-| **Frameworks**               | [![nextjs-badge]][nextjs-web] [![react-badge]][react-web]                                     |
-| **DevOps**                   | [![aws-badge]][aws-web] [![aws-amplify-badge]][aws-amplify-web] [![aws-s3-badge]][aws-s3-web] |
-| **Utilidades de desarrollo** | -                                                                                             |
-| **Gestor de paquetes**       | [![yarn-badge]][yarn-web]                                                                     |
+|                          |                                                                                                                               |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| **IDEs**                 | [![vscode-badge]][vscode-web]                                                                                                 |
+| **Lenguajes y entornos** | [![ts-badge]][ts-web]                                                                                                         |
+| **Estilos**              | [![tailwind-badge]][tailwind-web]                                                                                             |
+| **Frameworks**           | [![nextjs-badge]][nextjs-web] [![react-badge]][react-web][![express-badge]][express-web][![serverless-badge]][serverless-web] |
+| **DevOps**               | [![aws-badge]][aws-web] [![aws-amplify-badge]][aws-amplify-web] [![aws-s3-badge]][aws-s3-web] [![vercel-badge]][vercel-web]   |
+| **Gestor de paquetes**   | [![yarn-badge]][yarn-web]                                                                                                     |
 
 <!-- FORMA: [![-badge]][-web] -->
 
@@ -91,6 +94,8 @@ Este repositorio cuenta con 3 submódulos de git:
 [aws-api-gateway-web]: https://aws.amazon.com/api-gateway
 [serverless-badge]: https://img.shields.io/badge/Serverless-FD5750?logo=serverless&logoColor=fff&style=for-the-badge
 [serverless-web]: https://www.serverless.com/
+[vercel-badge]: https://img.shields.io/badge/Vercel-000?logo=vercel&logoColor=fff&style=for-the-badge
+[vercel-web]: https://vercel.com
 
 <!-- Utilidades de desarrollo -->
 

@@ -10,3 +10,6 @@
 [submodule "MaplerWebCoreReclutamiento"]
 	path = MaplerWebReclutamiento/MaplerWebCore
 	url = git@github.com:MaplerCL/MaplerWebCore.git
+[submodule "MaplerAPI"]
+	path = MaplerAPI
+	url = git@github.com:MaplerCL/MaplerAPI.git
