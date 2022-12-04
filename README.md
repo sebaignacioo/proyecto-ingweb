@@ -13,11 +13,18 @@ Este repositorio cuenta con 3 submódulos de git:
 
 -   [Mapler Web](https://github.com/MaplerCL/MaplerWeb): Repositorio con el sitio principal del proyecto.
 -   [Mapler Web Reclutamiento](https://github.com/MaplerCL/MaplerWebReclutamiento): Repositorio con el sitio dedicado al reclutamiento (landing page). Contiene los formularios validados (contacto e inscripción).
--   [Mapler API](https://github.com/MaplerCL/MaplerAPI): Repositorio con el desarrollo de la API del proyecto. Aplicación de <code>express</code> con conexión a base de datos <code>mongodb</code>, alojada bajo la modalidad <i>sin servidor</i>, utilizando la librería <code>serverless</code> y <code>aws lambda</code>, con <code>aws api gateway</code> para gestionar las rutas y peticiones.
+-   [Mapler API](https://github.com/MaplerCL/MaplerAPI): Repositorio con el desarrollo de la API del proyecto. Aplicación de <code>express</code> con conexión a base de datos <code>mongodb</code> utilizando <code>Prisma</code>, alojada bajo la modalidad <i>sin servidor</i>, utilizando la librería <code>serverless</code> y <code>aws lambda</code>, con <code>aws api gateway</code> para gestionar las rutas y peticiones.
 
 Además, dentro de los repositorios de sitios web, se encuentra el siguiente submódulo:
 
 -   [Mapler Web Core](https://github.com/MaplerCL/MaplerWebCore): Repositorio con componentes y liberías de utilidad, usado en el desarrollo de las páginas anteriores. Este repositorio es un submódulo de los repositorios principales.
+
+### Diagrama ER (base de datos)
+
+<p align="center">
+  <img src="https://assets.mapler.cl/ER.png">
+  <a href="https://assets.mapler.cl/ER.png" target="_blank">Descargar imagen</a>
+</p>
 
 ## Desarrollo
 
@@ -28,7 +35,7 @@ Además, dentro de los repositorios de sitios web, se encuentra el siguiente sub
 | **Estilos**              | [![tailwind-badge]][tailwind-web]                                                                                             |
 | **Frameworks**           | [![nextjs-badge]][nextjs-web] [![react-badge]][react-web][![express-badge]][express-web][![serverless-badge]][serverless-web] |
 | **DevOps**               | [![aws-badge]][aws-web] [![aws-amplify-badge]][aws-amplify-web] [![aws-s3-badge]][aws-s3-web] [![vercel-badge]][vercel-web]   |
-| **Gestor de paquetes**   | [![yarn-badge]][yarn-web]                                                                                                     |
+| **Gestor de paquetes**   | [![yarn-badge]][yarn-web] [![pnpm-badge]][pnpm-web] [![npm-badge]][npm-web]                                                   |
 
 <!-- FORMA: [![-badge]][-web] -->
 
@@ -108,3 +115,7 @@ Además, dentro de los repositorios de sitios web, se encuentra el siguiente sub
 
 [yarn-badge]: https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff&style=for-the-badge
 [yarn-web]: https://yarnpkg.com/
+[npm-badge]: https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff&style=for-the-badge
+[npm-web]: https://www.npmjs.com
+[pnpm-badge]: https://img.shields.io/badge/pnpm-F69220?logo=pnpm&logoColor=fff&style=for-the-badge
+[pnpm-web]: https://pnpm.io
