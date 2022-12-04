@@ -7,6 +7,17 @@
   <p align="center"><strong>Integrante:</strong> Sebastián García Delgadillo</p>
 </p>
 
+## Desarrollo
+
+|                          |                                                                                                                               |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| **IDEs**                 | [![vscode-badge]][vscode-web]                                                                                                 |
+| **Lenguajes y entornos** | [![ts-badge]][ts-web]                                                                                                         |
+| **Estilos**              | [![tailwind-badge]][tailwind-web]                                                                                             |
+| **Frameworks**           | [![nextjs-badge]][nextjs-web] [![react-badge]][react-web][![express-badge]][express-web][![serverless-badge]][serverless-web] |
+| **DevOps**               | [![aws-badge]][aws-web] [![aws-amplify-badge]][aws-amplify-web] [![aws-s3-badge]][aws-s3-web] [![vercel-badge]][vercel-web]   |
+| **Gestor de paquetes**   | [![yarn-badge]][yarn-web] [![pnpm-badge]][pnpm-web] [![npm-badge]][npm-web]                                                   |
+
 ## Detalles
 
 Este repositorio cuenta con 3 submódulos de git:
@@ -25,17 +36,6 @@ Además, dentro de los repositorios de sitios web, se encuentra el siguiente sub
   <img src="https://assets.mapler.cl/ER.png">
   <a href="https://assets.mapler.cl/ER.png" target="_blank">Descargar imagen</a>
 </p>
-
-## Desarrollo
-
-|                          |                                                                                                                               |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
-| **IDEs**                 | [![vscode-badge]][vscode-web]                                                                                                 |
-| **Lenguajes y entornos** | [![ts-badge]][ts-web]                                                                                                         |
-| **Estilos**              | [![tailwind-badge]][tailwind-web]                                                                                             |
-| **Frameworks**           | [![nextjs-badge]][nextjs-web] [![react-badge]][react-web][![express-badge]][express-web][![serverless-badge]][serverless-web] |
-| **DevOps**               | [![aws-badge]][aws-web] [![aws-amplify-badge]][aws-amplify-web] [![aws-s3-badge]][aws-s3-web] [![vercel-badge]][vercel-web]   |
-| **Gestor de paquetes**   | [![yarn-badge]][yarn-web] [![pnpm-badge]][pnpm-web] [![npm-badge]][npm-web]                                                   |
 
 <!-- FORMA: [![-badge]][-web] -->
 
